@@ -64,11 +64,37 @@ namespace CadastroEmMemoria.Dio
 
         private static void InserirConta()
         {
-            throw new NotImplementedException();
+             Console.WriteLine("Inserir nova série");
+
+             foreach (var item in Enum.GetValues(typeof(Genero)))
+             {
+                 System.Console
+                 .WriteLine("{0}-{1}",item, Enum.GetName(typeof(Genero),item));
+             }
+
+            Console.WriteLine("Digite o genêro entre as opções acima: ");
+            int entradaGenero = int.Parse(Console.ReadLine());
+           
+            Console.WriteLine("Digite o Título da Série: ");
+            string entradaTitulo = Console.ReadLine();
+
+            Console.WriteLine("Digite o Ano de Início da Série: ");
+            int entradaAno = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o crédito: ");
+            string entradaDescricao = Console.ReadLine();
+
+            Serie novaSerie = new Serie(id: repositorio.ProximoId(),
+                                        genero: (Genero)entradaGenero,
+                                        titulo: entradaTitulo,
+                                        ano: entradaAno,
+                                        descricao: entradaDescricao);
+            repositorio.Inserie(novaSerie);
         }
 
         private static void ListarContas()
         {
+            System.Console.WriteLine("Listar séries");
             var lista = repositorio.Lista();
 
             if (lista.Count == 0)
