@@ -1,6 +1,6 @@
-namespace CadastroEmMemoria.Dio
+﻿namespace RegistreSuaSerie.Classes.Enum
 {
-    public enum Genero
+    public enum Generos : short
     {
         Acao = 1,
         Aventura = 2,
@@ -15,6 +15,5 @@ namespace CadastroEmMemoria.Dio
         Romance = 11,
         Suspense = 12,
         Terror = 13
-
     }
 }

@@ -1,8 +1,10 @@
+﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-namespace CadastroEmMemoria.Dio.Interfaces
+namespace RegistreSuaSerie.Interfaces
 {
-    public interface IRepositorio<T>
+    public interface ISeriesRepositorio<T>
     {
         List<T> Lista();
         T RetornaPorId(int id);

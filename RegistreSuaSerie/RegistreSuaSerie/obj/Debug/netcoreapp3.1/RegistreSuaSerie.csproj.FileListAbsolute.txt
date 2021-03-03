@@ -1,0 +1,13 @@
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\bin\Debug\netcoreapp3.1\RegistreSuaSerie.exe
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\bin\Debug\netcoreapp3.1\RegistreSuaSerie.deps.json
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\bin\Debug\netcoreapp3.1\RegistreSuaSerie.runtimeconfig.json
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\bin\Debug\netcoreapp3.1\RegistreSuaSerie.runtimeconfig.dev.json
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\bin\Debug\netcoreapp3.1\RegistreSuaSerie.dll
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\bin\Debug\netcoreapp3.1\RegistreSuaSerie.pdb
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.csprojAssemblyReference.cache
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.AssemblyInfoInputs.cache
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.AssemblyInfo.cs
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.csproj.CoreCompileInputs.cache
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.dll
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.pdb
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.genruntimeconfig.cache
