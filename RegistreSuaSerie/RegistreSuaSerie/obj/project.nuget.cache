@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TWPI313HDlBFf5uVaybR+TJSqTwlVo1/V6Wqd5twEOydWAF3t8hmm4zRFUMfQvWP/J46yBbIiafdFztXIvhdVA==",
+  "dgSpecHash": "+QX+/Ba5EMsDAJxdSjb/oMf5mHRM9QSj3ovkMU/L985FK1vF+pGBk210Y89VPKiHKGxc2iofkzh59p3agAIO6g==",
   "success": true,
   "projectFilePath": "E:\\Cursos\\Digital Innovation One\\Challenges-.Net-Fundamentals-Digital-Innovation-One\\RegistreSuaSerie\\RegistreSuaSerie\\RegistreSuaSerie.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\helle\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\helle\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\helle\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -7,6 +7,11 @@ namespace RegistreSuaSerie.Contexto
     /// </summary>
     public class ContextArchive
     {
+        public ContextArchive()
+        {
+            CriarArquivo();
+        }
+
         /// <summary>
         /// Método responsável por criar um novo arquivo.
         /// </summary>
@@ -15,7 +20,9 @@ namespace RegistreSuaSerie.Contexto
             if (File.Exists(ConfiguracaoArquivo.ArchiveAddres))
                 return;
 
-            using FileStream file = new FileStream(ConfiguracaoArquivo.ArchiveName, FileMode.CreateNew);
+            using FileStream file = new FileStream(ConfiguracaoArquivo.ArchiveAddres, FileMode.CreateNew);
+
+            file.Close();
         }
 
 

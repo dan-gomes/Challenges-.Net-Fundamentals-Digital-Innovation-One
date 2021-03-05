@@ -1,12 +1,17 @@
-﻿using RegistreSuaSerie.Classes;
+﻿using Newtonsoft.Json;
+using RegistreSuaSerie.Classes;
 using RegistreSuaSerie.Contexto;
 using RegistreSuaSerie.Interfaces;
 using System.Collections.Generic;
 
 namespace RegistreSuaSerie.Repositorios
 {
-    public class SeriesRepositorio : ISeriesRepositorio<Series>
-    {
+    public class SeriesRepositorio : ContextArchive, ISeriesRepositorio
+    {        
+        public SeriesRepositorio() : base()
+        {
+        }
+
         public void Atualizar(int id, Series entidade)
         {
             throw new System.NotImplementedException();
@@ -18,8 +23,8 @@ namespace RegistreSuaSerie.Repositorios
         }
 
         public void Insere(Series entidade)
-        {
-            
+        {           
+            Adicionar(JsonConvert.SerializeObject(entidade));
         }
 
         public List<Series> Lista()

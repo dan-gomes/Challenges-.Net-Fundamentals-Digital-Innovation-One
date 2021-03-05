@@ -1,16 +1,17 @@
-﻿using System;
+﻿using RegistreSuaSerie.Classes;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace RegistreSuaSerie.Interfaces
 {
-    public interface ISeriesRepositorio<T>
+    public interface ISeriesRepositorio
     {
-        List<T> Lista();
-        T RetornaPorId(int id);
-        void Insere(T entidade);
+        List<Series> Lista();
+        Series RetornaPorId(int id);
+        void Insere(Series entidade);
         void Exclui(int id);
-        void Atualizar(int id, T entidade);
+        void Atualizar(int id, Series entidade);
         int ProximoId();
     }
 }

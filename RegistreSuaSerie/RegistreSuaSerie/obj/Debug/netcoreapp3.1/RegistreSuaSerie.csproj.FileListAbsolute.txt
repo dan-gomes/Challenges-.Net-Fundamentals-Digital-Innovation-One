@@ -11,3 +11,7 @@ E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation
 E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.dll
 E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.pdb
 E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.genruntimeconfig.cache
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Cursos\Digital Innovation One\Challenges-.Net-Fundamentals-Digital-Innovation-One\RegistreSuaSerie\RegistreSuaSerie\obj\Debug\netcoreapp3.1\RegistreSuaSerie.csproj.CopyComplete
