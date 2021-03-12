@@ -24,7 +24,10 @@ namespace RegistreSuaSerie.Classes
            Ano = ano;
            Excluido = false;
         }
+        public Series()
+        {
 
+        }
         public override string ToString()
         {
             string retorno = "";

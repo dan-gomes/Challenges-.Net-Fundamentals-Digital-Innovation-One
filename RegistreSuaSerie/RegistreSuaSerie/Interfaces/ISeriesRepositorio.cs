@@ -9,7 +9,7 @@ namespace RegistreSuaSerie.Interfaces
     {
         List<Series> Lista();
         Series RetornaPorId(int id);
-        void Insere(Series entidade);
+        void Incluir(Series entidade);
         void Exclui(int id);
         void Atualizar(int id, Series entidade);
         int ProximoId();

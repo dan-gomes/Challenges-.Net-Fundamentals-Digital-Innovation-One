@@ -22,7 +22,7 @@ namespace RegistreSuaSerie.Repositorios
             throw new System.NotImplementedException();
         }
 
-        public void Insere(Series entidade)
+        public void Incluir(Series entidade)
         {           
             Adicionar(JsonConvert.SerializeObject(entidade));
         }

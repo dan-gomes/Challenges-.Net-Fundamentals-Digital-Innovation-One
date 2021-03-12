@@ -1,7 +1,10 @@
-﻿using RegistreSuaSerie.Interfaces;
+﻿using RegistreSuaSerie.Classes;
+using RegistreSuaSerie.Classes.Enum;
+using RegistreSuaSerie.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace RegistreSuaSerie
 {
@@ -38,7 +41,6 @@ namespace RegistreSuaSerie
                         EditarSerie();
                         break;
 
-
                     default: throw new ArgumentNullException("Campo informado é inválido, reinciei a aplicação");
 
                 }
@@ -59,10 +61,27 @@ namespace RegistreSuaSerie
             throw new NotImplementedException();
         }
 
-        private static void CadastrarSerie()
-        {
+        private void CadastrarSerie()
+        {            
+            Console.WriteLine("Informe o titulo da série: ");
+            string titulo = Console.ReadLine();            
+                
+            foreach (var item in Enum.GetValues(typeof(Generos)))
+            {
+                Console.WriteLine($"{item}");
+            }
+            Console.WriteLine("Informe o gênero da série conforme listado acima: ");
+            int genero = int.Parse(Console.ReadLine());
 
-            var titulo = Console.ReadLine();
+            Console.WriteLine("Informe uma descrição: ");
+            var descricao = Console.ReadLine();
+
+            Console.WriteLine("Informe o ano da série: ");
+            var ano = Console.ReadLine();
+
+            _seriesRepositorio
+                .Incluir(new Series(new Random()
+                .Next(),(Generos)genero,titulo,descricao,int.Parse(ano)));
         }
 
         private static void VisualizarSerie()
@@ -94,10 +113,11 @@ namespace RegistreSuaSerie
             return opcaoUsuario;
         }
 
-        private void InicializarCampos()
+        private void InicializarCampos(string campo)
         {
+
             Console.Clear();
-            Console.WriteLine("");
+            Console.WriteLine($"Informe o valor para {campo} abaixo: ");
         }
 
         private bool PerguntaUsuario()
